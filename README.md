@@ -6,7 +6,7 @@
 Depending on where you play the game, there are different names. For example, *omok* in Korean, *go* in chinese, or *gomoku* in Japanese. There are also different rules that each variation abides by. In my case, I created a game that follows the rules of _**renju gomoku**_.
 
 ## Renju Gomoku
-*Renju gomoku* is one of the most popular variations of the game, played on a 15x15 board, with specific rules about three and three, four and four, and overline (six consecutive) combinations that apply to only black stones, as this player has a starting advantage.
+*Renju gomoku* is one of the most popular variations of the game, played on a 15x15 board, with specific rules about three and three, four and four, and overline (six consecutive stones) combinations that apply to only black stones, as this player has a starting advantage.
 
 One of the reasons that *renju gomoku* is widely used is due to the fact that without these rules, there is a strategy for black to win 99.9% of the time.
 
@@ -64,7 +64,7 @@ Priority 1: Game ends within one move (e.g. four stones of the same color have b
 
 Priority 2: Game ends within two moves (e.g. three stones of the same color have been placed with no obstacles on either left or right, and thus the game will absolutely end, unless somebody blocks.)
 
-... *et ceterae*
+...*et ceterae*
 
 ### AI_Gomoku
 This class is summoned by **Board_Gomoku** if you chose to play the second, third, or fourth game mode with an AI. This class prints out the different *priorities* of stone placements in the terminal, so you can see the AI's decision-making.
